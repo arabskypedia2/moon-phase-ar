@@ -1,0 +1,21 @@
+{
+  "name": "moon-phase-ar",
+  "version": "1.0.1",
+  "description": "حاسبة طور القمر بالعربية — Moon phase calculator with Arabic phase names (age, illumination, phase)",
+  "main": "index.js",
+  "keywords": [
+    "moon",
+    "phase",
+    "arabic",
+    "astronomy",
+    "قمر",
+    "فلك",
+    "منازل"
+  ],
+  "homepage": "https://arabskypedia.com",
+  "author": "ArabSkyPedia (https://arabskypedia.com)",
+  "license": "MIT",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
