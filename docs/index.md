@@ -2,8 +2,6 @@
 
 A small JavaScript library that returns the moon phase for any date, with Arabic and English phase names, the moon's age in days and the illuminated percentage.
 
-مكتبة JavaScript صغيرة تعيد طور القمر لأي تاريخ: الاسم بالعربية والإنجليزية، وعمر القمر بالأيام، ونسبة الإضاءة.
-
 ## Install
 
 ```bash
@@ -18,8 +16,10 @@ const { getMoonPhase, moonAge } = require('moon-phase-ar');
 getMoonPhase(new Date('2026-11-25'));
 // { age: 15.1, illumination: 99.9, phase: 'full', phaseAr: 'بدر', phaseEn: 'Full Moon' }
 
-moonAge(new Date('2026-11-25')); // about 15.1 days
+moonAge(new Date('2026-11-25')); // 15.084778581776629 (unrounded, in days)
 ```
+
+The package also exports `PHASES` (the list of eight phases) and `SYNODIC_MONTH` (29.530588853). `age` in the result is rounded to 0.1 day and `illumination` to 0.1 percent; `moonAge` returns the unrounded age.
 
 ## The eight phases
 
