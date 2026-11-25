@@ -40,7 +40,7 @@ The library counts the days since a reference new moon (2000-01-06 18:14 UTC) an
 
 ## Accuracy
 
-This is a mean-month approximation. The real moon speeds up and slows down along its orbit, so the result can differ from an ephemeris, and the gap is larger near some phases than others. Check important dates against an almanac. Do not use it to decide the start of a Hijri month. For sighting predictions and crescent visibility, see the [Hilal pages on ArabSkyPedia](https://arabskypedia.com/hilal/).
+This is a mean-month approximation. The real moon speeds up and slows down along its orbit, so the result can differ from an ephemeris. Check important dates against an almanac. Do not use it to decide the start of a Hijri month. For sighting predictions and crescent visibility, see the [Hilal pages on ArabSkyPedia](https://arabskypedia.com/hilal/).
 
 ## Notes
 
